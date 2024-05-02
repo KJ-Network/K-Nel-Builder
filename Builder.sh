@@ -23,7 +23,7 @@ if [ $option = 1 ]
         if [ -e '/root/K-Nel-Projects/OutFiles/K-Nel-M1721.zip' ]
           then rm '/root/K-Nel-Projects/OutFiles/K-Nel-M1721.zip'
         fi
-        if [ -e out/arch/arm64/boot/Inage.gz ]
+        if [ -e out/arch/arm64/boot/Image.gz ]
         then
             echo 'Pack Starting······'
             cp -r out/arch/arm64/boot/Image.gz /root/K-Nel-Projects/Toolchain/Anykernel3/
@@ -39,6 +39,7 @@ if [ $option = 1 ]
             echo 'Pack Failed!'
             exit
         fi
+        echo 'Build Successed!'
     fi
     if [ $device = 2 ]
         then exit

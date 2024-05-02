@@ -7,9 +7,6 @@ read -r repo
 if [ $repo = 1 ]
 then
     cd ./Sources/M1721
-    if [ -s out ]
-        then rm -rf out
-    fi
     git submodule add https://github.com/tiann/kernelsu.git KernelSU
     git add .
     git commit -m "Automatically update source code using scripts"

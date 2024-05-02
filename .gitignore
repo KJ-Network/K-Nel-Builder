@@ -1,3 +1,4 @@
 Sources/M1721
 Toolchain/*
 OutFiles/*
+upload-builder-to-github.sh

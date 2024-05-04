@@ -1,4 +1,5 @@
 Sources/M1721
+Sources/Mido
 Toolchain/*
 OutFiles/*
 upload-builder-to-github.sh
